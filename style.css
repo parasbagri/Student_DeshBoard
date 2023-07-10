@@ -1,0 +1,25 @@
+
+body{
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+    
+}
+ .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 8px;
+ } 
+ @media(max-width:768git initpx)
+ {
+  .hide{
+     display: none;
+  }
+ }
+ 
